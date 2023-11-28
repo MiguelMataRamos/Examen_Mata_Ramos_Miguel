@@ -7,6 +7,8 @@
     tools:context=".maqueta2">
 
     <LinearLayout
+        android:padding="1dp"
+        android:background="@color/black"
         android:id="@+id/cat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:background="@color/white"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -56,70 +59,75 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:background="@color/white"
+                android:layout_weight="1"
                 android:src="@drawable/pizza" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:background="@color/white"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Food" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:src="@drawable/pizza" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:gravity="center"
-                android:padding="10dp"
+                android:layout_weight="1"
                 android:text="Food" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:background="@color/white"
+                android:layout_weight="1"
                 android:src="@drawable/pizza" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:background="@color/white"
                 android:gravity="center"
                 android:padding="10dp"
+                android:layout_weight="1"
+                android:text="Food" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:src="@drawable/pizza" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_weight="1"
                 android:text="Food" />
 
         </LinearLayout>
@@ -171,39 +179,43 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height=""
+                android:layout_height="0dp"
                 android:background="@color/white"
+                android:layout_weight="1"
                 android:src="@drawable/pizza" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:background="@color/white"
                 android:gravity="center"
                 android:padding="10dp"
+                android:layout_weight="1"
                 android:text="Food" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:background="@color/white"
+                android:layout_weight="1"
                 android:src="@drawable/pizza" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:background="@color/white"
                 android:gravity="center"
                 android:padding="10dp"
+                android:layout_weight="1"
                 android:text="Food" />
 
         </LinearLayout>
@@ -218,7 +230,8 @@
         android:layout_marginHorizontal="20dp"
         android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/c"
-        app:layout_constraintTop_toBottomOf="@+id/f2">
+        app:layout_constraintTop_toBottomOf="@+id/f2"
+        android:layout_marginBottom="40dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
